@@ -2,8 +2,8 @@
 
 ## Mail Application with Tkinter and smtplib
 
-
 ## Description
+
 
 This Python application provides a simple graphical user interface (GUI) for sending emails using the Tkinter library for the frontend and the smtplib library for handling email operations. The application allows users to input their email credentials, recipient's email address, email subject, and the email body. It also includes functionality for resetting the input fields and sending emails.
 
@@ -51,3 +51,11 @@ This application is a basic example and may not cover all edge cases or security
 Feel free to explore and modify the code to enhance functionality or customize the application according to your preferences.
 
 Enjoy using the Mail Application!
+
+## Pictures
+
+
+![pic2 (2)](https://github.com/BEAST-PRINCE/Python_Email/assets/98230743/ef9388b7-31d7-4b72-88b4-89edb006b0c7)
+
+
+![pic2 (1)](https://github.com/BEAST-PRINCE/Python_Email/assets/98230743/9e84e1a1-d9ed-41ad-ab3b-50766dd36d27)  
