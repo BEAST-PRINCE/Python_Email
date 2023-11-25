@@ -4,7 +4,7 @@ import smtplib
 
 root = tk.Tk()
 root.title("Mail Application")
-root.geometry("630x680")
+root.geometry("630x700")
 root.resizable(width=False, height=False)
 
 
@@ -85,8 +85,8 @@ body_label.grid(row=5, column=0, sticky=tk.W, padx=10)
 
 
 # Notification LAbel
-notification_label = tk.Label(mainFrame, text='', font=("Calibri",18))
-notification_label.grid(row=8, column=0, sticky=tk.W, padx=15, pady=30)
+notification_label = tk.Label(root, text='', font=("Calibri",18))
+notification_label.pack(padx=15, fill='x', side='bottom')
 
 # Storage Variables
 username = tk.StringVar()
