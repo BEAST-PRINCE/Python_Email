@@ -107,7 +107,7 @@ subject_entry = tk.Entry(mainFrame, textvariable=subject, width=50)
 subject_entry.grid(row=4, column=1, padx=15)
 
 # body_entry = tk.Entry(mainFrame, textvariable=body, width=30)
-body_entry = tk.Text(mainFrame, font=("Arial",14), height=15, width=40)
+body_entry = tk.Text(mainFrame, font=("Arial",14), height=15, width=40, wrap='word')
 body_entry.grid(row=5, column=1, padx=15, pady=10)
 
 
